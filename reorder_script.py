@@ -19,6 +19,8 @@ Author: Mick Veenman
 import os
 
 folder_path = "./images"  # Replace with the path to your folder
+# folder_path = "D:\\Projects\\Python\\test\\emergency_sign\\test"  # Replace with the path to your folder
+# folder_path = "D:\\Projects\\Python\\test\emergency_sign\\train"  # Replace with the path to your folder
 
 def reoder():
     files = os.listdir(folder_path)
