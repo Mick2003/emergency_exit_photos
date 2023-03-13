@@ -15,5 +15,5 @@ for filename in os.listdir(directory):
             new_filename = os.path.splitext(filename)[0] + '.jpg'
             img.save(os.path.join(directory, new_filename))
 
-            # delete the original JPEG file
+        # delete the original JPEG file
         os.remove(os.path.join(directory, filename))
